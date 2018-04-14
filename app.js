@@ -2,7 +2,7 @@ const express = require('express');
 let app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const url = 'mongodb://mLabMongoDBdb:mLabMongoDBdb@ds143039.mlab.com:43039/note-taker';
+const url = 'mongodb://dbuser:dbpassword@ds143039.mlab.com:43039/note-taker';
 let port = 3000;
 
 // parse requests of content-type - application/x-www-form-urlencoded
